@@ -43,7 +43,7 @@ export default function teste() {
             <AdvertisingFix/>
           </section>
 
-          <Advertising />
+{/*           <Advertising /> */}
           <DigitalWeekly/>
           <DigitalBiWeekly/>
           <Contact />
