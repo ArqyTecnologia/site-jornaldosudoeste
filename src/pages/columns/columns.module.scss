@@ -1,0 +1,131 @@
+.notColunas{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    width: 70%;
+    margin: auto;;
+    display: flex;
+    flex-wrap: wrap;
+    .cardColuna{
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        width: 25%;
+        height: 40vh;
+        margin-left: 3%;
+        padding:2%;
+        margin-bottom: 2%;
+        box-shadow:  2px 4px 8px 3px rgba(0,0,0,0.75);
+        transition: 0.2s;
+        h3{
+            font-size:1.2em;
+            font-weight: 500;
+            padding-bottom: 2%;
+        }   
+        h4{
+            margin-left: 3%;
+            font-size:1em
+        }
+        img{
+            bottom: 0;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
+            height: 30%;
+        }
+    }
+    .cardColuna:hover{
+        scale:0.985;
+    }
+}
+.headerColunas{
+    padding-top: 2%;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    h1{
+        padding-bottom: 2%;
+    }
+}
+.headerNoticiasIndi{
+    padding-top: 3%;
+    width: 80%;
+    margin:auto;
+    h2{
+        font-weight: 500;
+        padding-top: 0.6%;
+        padding-bottom: 2%;
+    }
+    h4{
+        font-weight: 400;
+        font-size: 1em;
+    }
+    img{
+        width: 100%;
+        height: 65vh;
+    }
+}
+.conteudoNoticiasIndi{
+    width: 80%;
+    margin: auto;
+
+    p{
+        font-size: 1.2em;
+        font-weight: 600;
+        padding-top: 2%;
+        padding-bottom: 1%;
+    }
+    h5{
+        font-size: 1em;
+        font-weight: 400;
+        padding-top: 2%;
+        padding-bottom: 7%;
+    }
+}
+.nossosColunistas{
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: auto;
+    h1{
+        font-size: 1.5em;
+        color: var(--primary-normal);
+        padding-bottom: 3%;
+        font-weight: 400;
+    }
+    .conjuntoColunistas{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        
+        .colunistaIndi:hover{
+            scale: 0.98;
+        }
+    }
+}
+
+.colunistaIndi{
+    margin-right: 3%;
+    margin-bottom: 20px;
+    width: 30%;
+    height: 25vh;
+    display: flex;
+    border-radius: 15px;
+    box-shadow:  2px 4px 8px 3px rgba(0,0,0,0.75);
+    transition: 0.3s;
+}
+.conteudoColunista{
+    padding: 3%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    h2{
+        font-size: 1.1em;
+        font-weight: 600;
+    }
+    h3{
+        font-size: 1em;
+    }
+}

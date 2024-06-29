@@ -1,0 +1,46 @@
+.erroMsg{
+    font-size: 16px;
+    width: 20%;
+}
+.clima{
+    display: flex;
+    flex-direction: column;
+    .climaMain{
+        display:flex;
+        align-items: center;
+        img{
+            width: 40%;
+        }
+        .temperatura{
+            display: flex;
+            align-items: center;
+            .medidas{
+                font-size: 15px;
+                color:#9B9B9B;
+                transition: .3s;
+            }
+        }
+    }
+    .cidade{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3{
+            text-align: center;
+            font-size: 1em;
+            width: 100%;
+        }
+        img{
+            margin-left: 10%;
+            width: 20%;
+        }
+        input{
+            font-size: 0.8em;
+            width: 80%;
+            padding: 3% 8%;
+            border: 1px solid gray;
+            border-radius: 5px;
+            outline: none;
+        }
+    }
+}

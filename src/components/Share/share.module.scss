@@ -1,0 +1,42 @@
+.compartilharDiv{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 40%;
+    height: 10vh;
+    margin-left: 24%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    h3{
+        font-weight: 300;
+        padding-right: 7%;
+    }
+    div{
+        width: 250px;
+        display: flex;
+        justify-content: space-between;
+        a{
+            width: 1000px;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding: 2% 15%;
+            margin-right: 5%;
+            background-color: #ECF2EA;
+            transition: .2s;
+            color:#ECF2EA;
+
+            img{
+                color: var(--primary-normal);
+                padding-top: 5px;
+                padding-bottom: 3px;
+            }
+            h2{
+                width: 27px;
+            }
+        }
+        a:hover{
+            scale: 1.1;
+        }
+    }
+   
+}

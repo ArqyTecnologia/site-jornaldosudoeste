@@ -1,0 +1,41 @@
+.headerPageCanalJS{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin:auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: var(--primary-normal);
+    div{
+        width: 80%;
+        margin-left: 5%;
+        border-radius: 12px;
+        height: 10px;
+        background-color: var(--primary-normal);
+    }
+}
+.mainPageCanalJS{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    .cardMaior{
+        width: 90%;
+        margin: auto;
+        padding-left: 3%;
+        display: flex;
+        img{
+            border-radius: 15px;
+        }
+        .conteudoCardMaior{
+            width: 40%;
+            margin: auto;
+        }
+    }
+    .cardMenor{
+        width: 30%;
+        margin-left: 2%;
+        margin-top: 3%;
+        margin-bottom: 6%;
+    }
+}

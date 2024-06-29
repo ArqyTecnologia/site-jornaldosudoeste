@@ -1,0 +1,50 @@
+.headerDigitalSemanal{
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    width: 80%;
+    margin:auto;
+    display: flex;
+    align-items: flex-start;
+    h1{
+        font-size: 1.7em;
+    }
+}
+.mainDigitalSemanal{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1.5%;
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 300px;
+        min-width: 175px;
+        width: 18%;
+        h1{
+            background-color: var(--primary-light);
+            color: white;
+            font-size: 0.8em;
+            padding: 5%;
+            border-radius: 4px;
+            width: 50%;
+            margin-left: 8%;
+            margin-bottom: 5%;
+            z-index: 1;
+        }
+        h2{
+            font-size: 1.1em;
+            margin-left: 8%;
+            margin-bottom: 15%;
+            color: white;
+        }
+        scale: 0.99;
+        transition: 0.5s;
+    }
+    .cards:hover{
+        scale: 0.975;
+    }
+}

@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-normal: #576C4F;
+    --primary-dark: #0A0A0A;
+    --primary-light: #9FC093;
+
+    --secundary-light:#FCFCFC;
+    --secundary-dark: #9B9B9B;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    //cursor: pointer;
+    font-family: "Inter", sans-serif;
+    // Bloquear copia de conteudo ? Acho que isso deveria se aplicar somente nos conteudos ?
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    user-select: none;
+    
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer{
+    background-color:  #eaffe3;
+}
+
+header{
+    background-color: var(--primary-light);
+}
+
+@media (max-width: 720px){
+    html{
+      font-size: 87.5%; // vai gerar 14px;
+    }
+  }
+  
+  @media (max-width: 1080px){
+    html{
+      font-size: 93.75%; // vai gerar 15px;
+    }
+  }

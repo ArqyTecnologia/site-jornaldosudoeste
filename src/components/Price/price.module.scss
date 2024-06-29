@@ -1,0 +1,19 @@
+.cotacaoMain{
+    display: flex;
+    width:35%;
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 50%;
+        h1, h2{
+            font-size: 1rem;
+        }
+        img{
+            margin-left: 3%;
+        }
+    }
+    .segundaDiv{
+        margin-left:10%;
+    }
+}

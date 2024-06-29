@@ -1,0 +1,45 @@
+.headerPreviewYT{
+    padding-top: 2%;
+    padding-bottom: 1%;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    h2{
+        font-size: 2em;
+        color: var(--primary-normal);
+    }
+    .linhaHorizontal{
+        height: 8px;
+        width: 80%;
+        border-radius: 15px;
+        margin-left: 5%;
+        background-color: var(--primary-normal);
+    }
+}
+.section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+    div{
+        a{
+            h3{
+                padding: 2%;
+                font-size: 14px;
+                color: black;
+            }
+        }
+        max-width: 320px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.7%;
+        border-radius: 15px;
+        background-color: var(--primary-light);
+    }
+}

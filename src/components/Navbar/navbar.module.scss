@@ -1,0 +1,19 @@
+.navbar{
+    margin-left: 9%;
+    margin-right: 9%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+    li{
+        margin: auto;
+        padding: 1em 2.1em;
+        transition: .4s;
+        a{
+            color:white;
+        }
+    }
+    li:hover{
+        background-color: #9FC093;
+    }
+}

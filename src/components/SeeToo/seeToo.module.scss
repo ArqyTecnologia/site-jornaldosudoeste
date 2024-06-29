@@ -1,0 +1,54 @@
+.headerSeeToo{
+    display: flex;
+    align-items: center;
+    padding-top: 1.5%;
+    h3{
+        font-size: 1.7em;
+    }
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.ancora{
+    margin-top: 1%;
+    width: 100%;
+    color: black;
+    margin-right: 1%;
+    transition: 0.2s;
+}
+.ancora:hover{
+    scale: 0.99;
+}
+.cardIndi{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 15px;
+    box-shadow:  2px 4px 8px 3px rgba(0,0,0,0.75);
+    
+    img{
+        border-radius: 15px 0 0 15px ;
+        width: 45%;
+    }
+    .cardConteudo{
+        min-height: 160px;
+        width: 100%;
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        h4{
+            font-size: 1.2em;
+            font-weight: 500;
+        }
+        h5{
+            font-size: 1em;
+            margin-top: 5%;
+            font-weight: 400;
+        }
+    }
+}
+.seeTooDiv{
+    width: 80%;
+    margin: auto;
+}

@@ -1,0 +1,88 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .headerSup{
+        background-color: #9FC093;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: auto;
+        padding: 0.5%;
+        .headerData{
+            width: 11.3vw;
+        }
+        div{
+            display: flex;
+            align-items: center;
+        }
+        h2{
+            font-size: 1em;
+        }
+        .headerSupRedacao{
+            display: flex;
+            align-items: center;
+        }
+        strong{
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 10%;
+            li{
+                list-style-type: none;
+                a{
+                    color:black;
+                }
+            }
+        }
+        
+    }
+    .headerInterno{
+        background-color:#FCFCFC;
+        display: flex;
+        justify-content: space-around;
+        height: auto;
+        padding-bottom: 1%;
+        padding-top: 2%;
+        .imageLogotipo{
+            width: 25%;
+            height: 25%;
+        }
+        .componentesApis{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width:50%;
+            .inputBusca{
+                background-color: #ECEBEB;
+                width: 13vw;
+                height: 5vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin:5%;
+                border-radius: 5px;
+                input{
+                    width: 7vw;
+                    height: 4vh;
+                    background-color: #ECEBEB;
+                    border:0 none;
+                }
+                input:focus{
+                    outline: none;
+                }
+            }
+        }
+    }
+    .headerInf{
+        background-color: #576C4F;
+    }
+}
+
+

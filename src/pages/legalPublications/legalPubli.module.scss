@@ -1,0 +1,78 @@
+.headerPubliLegais{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--primary-normal);
+    
+    h1{
+        font-size: 3em;
+        font-weight: 300;
+        padding-bottom: 2%;
+    }
+    h2{
+        font-size: 2em;
+        font-weight: 300;
+    }
+}
+.selectPubli{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2%;
+    select{
+        font-size: 1.5em;
+        width: 20%;
+        height: 10vh;
+        color: white;
+        background-color: var(--primary-light);
+        border: none;
+        border-radius: 5px;
+    }
+}
+.componentesCards{  
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    h1{
+        width: 100%;
+        font-size: 2em;
+        color:var(--primary-normal);
+        padding-bottom: 2%;
+    }
+}
+.cardLegalPublication{
+    width: 32%;
+    margin-bottom: 3%;
+    transition: 0.3s;
+}
+.cardLegalPublication:hover{
+    scale: 0.99;
+}
+.cardConteudo{
+    height: 25vh;
+    min-height: 110%;
+    border-radius: 15px;
+    box-shadow:  2px 4px 8px 3px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: flex-end;
+    .cardConteudoDentro{
+        width: 50%;
+        h2{
+            font-size: 1.2em;
+        }
+        h3{
+            font-size: 1em;
+            font-weight: 300;
+        }
+    }
+    img{
+        border-radius: 15px 0px 0px 15px;
+    }
+}

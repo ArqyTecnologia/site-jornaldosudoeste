@@ -1,0 +1,86 @@
+.footerMain{
+    bottom: 0;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding-top: 4%;
+    align-items: flex-start;
+    justify-content: center;
+    .imgEHistoria{
+        display: flex;
+        align-items: center;
+        margin-right: 1%;
+        p{
+            text-align: justify;
+            width: 50%;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+        }
+    }
+    .linksUteis{
+        width: 100%;
+        h1{
+            font-size: 16px;
+        }
+        ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-top: 3%;
+            li{
+                margin-top: 3%;
+                margin-bottom: 3%;
+                list-style-type: none;
+                a{
+                    color: black;
+                }
+            }
+        }
+    }
+    .redacao{
+        h1{
+            font-size: 16px;
+        }
+        div{
+            display: flex;
+            align-items: center;
+            margin-top:5%;
+            margin-bottom: 5%;
+            h2{
+                text-align:left;
+                font-size:14px;
+            }
+        }
+    }
+    .sigaNos{
+        width: 100%;
+        h1{
+            font-size: 16px;
+            margin-bottom: 5%;
+        }
+        ul{
+            margin-top: 10%;
+            display: flex;
+            align-items: center;
+            li{
+                list-style-type: none;
+                margin-right: 5%;
+                img{
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5% 0;
+    h2{
+        font-size: 12px;
+    }
+}
