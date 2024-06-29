@@ -35,7 +35,7 @@ export default function teste() {
             <NewspaperThreeColumns />
           </section>
 
-          <Advertising />
+{/*           <Advertising /> */}
           <DigitalWeekly/>
           <DigitalBiWeekly/>
           <Contact />
