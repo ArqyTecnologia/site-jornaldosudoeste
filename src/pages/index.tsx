@@ -8,6 +8,7 @@ import SeeToo from "../components/SeeToo";
 import styles from "../styles/Home.module.scss"
 import { Advertising } from "../components/Advertising";
 import LastNewsHome from "../components/componentePagInicial";
+import { AdvertisingFix } from "../components/Advertising_fixo";
 
 export default function teste() {
   return (
@@ -26,6 +27,9 @@ export default function teste() {
 
           </section>
           
+          <section className="my-4">
+            <AdvertisingFix/>
+          </section>
 
           <section className="my-4">
             <CanalJs/>
@@ -33,6 +37,10 @@ export default function teste() {
 
           <section className="my-4">
             <NewspaperThreeColumns />
+          </section>
+          
+          <section className="my-4">
+            <AdvertisingFix/>
           </section>
 
           <Advertising />
